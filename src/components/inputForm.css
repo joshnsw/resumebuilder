@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.containerinput{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    max-width: 200px;
+    width: 100%;
+    gap:5px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.expbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+    margin-left: -9.5em;
+        width: 500px;
+        gap:5px;
+      
+    
+
+}
+
+.edubox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+    margin-left: -9.5em;
+        width: 500px;
+        gap:5px;
+    
+}
+

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Source+Code+Pro:wght@200&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+.container{
+    border: 5px;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 800px;
+    
+}
+
+button{
+  width: 100px;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.cvform{
+  border: 0.1em;
+  border-style: solid;
+  padding: 1em 3em 1em 1em;
+  margin-left:0.5em ;
+  margin-right: 0.5em;
+}
+
+hr{
+  margin-top: 0.5em;
+  width: 105%;
+}
+
+.cvform{
+  margin-top: 1em;
+  
+}
+
+.workexpsection{
+  margin-top: 1.5em;
+  
+}
+
+.workexpsection > h3{
+ text-align: left;
+ margin-left: 0.8rem;
+  
+}
+
+
+.explist{
+  margin-top: 0.5em;
+  
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: auto;
+  gap: 2px;
+  text-align:left ;
+  margin-left: 1rem;
+  
+}
+
+
+.edusection{
+  margin-top: 1.5em;
+  text-align:left ;
+  margin-left: 1rem;
+  
+}
+
+.edulist{
+  margin-top: 0.5em;
+  
+  display: grid;
+  grid-template-columns: repeat(1,1fr 2.6fr 0.7fr);
+  
+  grid-template-rows: auto;
+  gap: 2px;
+  text-align:left;
+}
+
+span{
+  
+  
+  padding-right: 1em;
+}
+
+
+.endsection{
+  margin-top: 0.5em;
+  text-align: left;
+  margin-left: 1rem;
+  
+}
+
+
+.endsection > h3{
+  margin-bottom: 0.5em;
+  
+}
+
+
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+   #cvformprint * {
+    visibility: visible;
+    width: 100%;
+  }
+  #cvformprint  {
+    margin-top: 4em;
+    position: absolute;
+    left: 6em;
+    right: 4em;
+    top: 4em;
+    transform: scale(1.2); 
+    line-height: 150%;
+   
+  }
+  
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  
+    html, body {
+      width: 210mm;
+      height: 297mm;
+    }
+    /* ... the rest of the rules ... */
+  
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
